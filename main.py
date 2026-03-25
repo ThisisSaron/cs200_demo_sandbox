@@ -11,16 +11,16 @@ def func2(data):
     print('Here is the data:')
     print(data)
 
-    choice = ''
+    selection = ''
     while True:
-        choice = input('Select an option. 1-sum  2-min  3-max  4-quit')
-        if choice == '1':
+        selection = input('Select an option. 1-sum  2-min  3-max  4-quit')
+        if selection == '1':
             print('The sum is',sum(data))
-        elif choice == '2':
+        elif selection == '2':
             print('Not supported yet')
-        elif choice == '3':
+        elif selection == '3':
             print('Not supported yet')
-        elif choice == '4':
+        elif selection == '4':
             print('Goodbye')
             return
 
