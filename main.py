@@ -9,6 +9,13 @@ def func1():
     return lst
 
 
+def foo(x,y):
+    return (x*y) + 1
+
+
+def bar(z):
+    return (z%2) == 0 
+
 def func2(data):
     print('Here is the data:')
     print(data)
